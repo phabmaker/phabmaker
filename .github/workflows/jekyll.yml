@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ phabmaker-website ]
   pull_request:
-    branches: [ main ]
+    branches: [ phabmaker-website ]
 
 jobs:
   build:
